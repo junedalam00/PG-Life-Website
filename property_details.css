@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.details-container {
+  margin-top: 50px;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-inner img {
+  height: 300px;
+  object-fit:cover;
+}
+
+.feature-list li {
+  margin-bottom: 10px;
+}
+.review-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.review-card .review-author {
+  font-weight: bold;
+}
+.review-card .review-text {
+  margin-top: 10px;
+}
+
+.contact-us-btn{
+  background-color: #4dc7bc;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+
+.contact-us-btn:hover{
+  background-color: #069c90;
+  color: #fff;
+}
